@@ -1,0 +1,16 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    .content-input {
+        display: flex;
+        flex-direction: column;
+        .input {
+            width: 200px;
+            margin-top: 10px;
+        }
+        .btn {
+            width: 100px;
+            margin-top: 10px;
+        }
+    }
+}

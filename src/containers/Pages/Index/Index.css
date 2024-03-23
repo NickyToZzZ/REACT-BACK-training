@@ -1,0 +1,26 @@
+.container {
+	width: 100%;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+}
+.header {
+	display: flex;
+	justify-content: space-around;
+	margin: 10px 0 10px;
+	padding: 20px;
+	border-bottom: 1px solid black;
+}
+.header__input {
+	width: 200px;
+	height: 50px;
+}
+.header__btn:hover {
+	cursor: pointer;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}

@@ -1,0 +1,14 @@
+.content-card {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	margin-bottom: 10px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
+.content-card__checkbox:hover {
+	cursor: pointer;
+}
+.content-card__btn:hover {
+	cursor: pointer;
+}
